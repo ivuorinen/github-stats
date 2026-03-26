@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # master
       - name: Update gist
         uses: matchai/waka-box@7c3b60d16e050e453b8bfe7ef484f171928a8726 # v5.0.0
         env:
